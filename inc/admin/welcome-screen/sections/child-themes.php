@@ -59,7 +59,7 @@
 				<?php if ( 'OnePirate' != $current_theme['Name'] ) { ?>
 					<div class="theme-details">
 						<span class="theme-name">OnePirate</span>
-						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=onepirate' ), 'install-theme_onepirate' ) ); ?>" class="button button-primary install right"><?php printf( __( 'Install %s now', 'zerif-lite' ), '<span class="screen-reader-text">ZblackBeard</span>' ); ?></a>
+						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=onepirate' ), 'install-theme_onepirate' ) ); ?>" class="button button-primary install right"><?php esc_html_e( 'Get now', 'zerif-lite' ); ?></a>
 						<a class="button button-secondary preview right" target="_blank" href="https://wp-themes.com/onepirate"><?php esc_html_e( 'Live Preview','zerif-lite'); ?></a>
 						<div class="zerif-lite-clear"></div>
 					</div>
@@ -86,7 +86,7 @@
 				<?php if ( 'Zifer Child' != $current_theme['Name'] ) { ?>
 					<div class="theme-details">
 						<span class="theme-name">Zifer Child</span>
-						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=zifer-child' ), 'install-theme_zifer-child' ) ); ?>" class="button button-primary install right"><?php printf( __( 'Install %s now', 'zerif-lite' ), '<span class="screen-reader-text">Zerius</span>' ); ?></a>
+						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=zifer-child' ), 'install-theme_zifer-child' ) ); ?>" class="button button-primary install right"><?php esc_html_e( 'Get now', 'zerif-lite' ); ?></a>
 						<a class="button button-secondary preview right" target="_blank" href="https://wp-themes.com/zifer-child"><?php esc_html_e( 'Live Preview','zerif-lite'); ?></a>
 						<div class="zerif-lite-clear"></div>
 					</div>
@@ -115,7 +115,7 @@
 				<?php if ( 'ResponsiveBoat' != $current_theme['Name'] ) { ?>
 					<div class="theme-details">
 						<span class="theme-name">ResponsiveBoat</span>
-						<a href="http://themeisle.com/themes/responsiveboat-theme/#pricing-single" class="button button-primary install right"><?php printf( __( 'Get %s now', 'zerif-lite' ), '<span class="screen-reader-text">ResponsiveBoat</span>' ); ?></a>
+						<a href="http://themeisle.com/themes/responsiveboat-theme/#pricing-single" class="button button-primary install right"><?php esc_html_e( 'Get now', 'zerif-lite' ); ?></a>
 						<a class="button button-secondary preview right" target="_blank" href="https://wp-themes.com/responsiveboat"><?php esc_html_e( 'Live Preview','zerif-lite'); ?></a>
 						<div class="zerif-lite-clear"></div>
 					</div>
@@ -142,7 +142,7 @@
 				<?php if ( 'Zerius' != $current_theme['Name'] ) { ?>
 					<div class="theme-details">
 						<span class="theme-name">Zerius</span>
-						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=zerius' ), 'install-theme_zerius' ) ); ?>" class="button button-primary install right"><?php printf( __( 'Install %s now', 'zerif-lite' ), '<span class="screen-reader-text">Zerius</span>' ); ?></a>
+						<a href="<?php echo esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-theme&theme=zerius' ), 'install-theme_zerius' ) ); ?>" class="button button-primary install right"><?php esc_html_e( 'Get now', 'zerif-lite' ); ?></a>
 						<a class="button button-secondary preview right" target="_blank" href="https://wp-themes.com/zerius"><?php esc_html_e( 'Live Preview','zerif-lite'); ?></a>
 						<div class="zerif-lite-clear"></div>
 					</div>
