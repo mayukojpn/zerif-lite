@@ -43,7 +43,7 @@
             <tr>
                 <td>
                     <h3><?php esc_html_e( 'Frontpage sections','zerif-lite' ); ?></h3>
-                    <p><?php esc_html_e( 'Big title, Our focus, About us, Our team, Testimonials, Ribbons, Latest news, Contat us','zerif-lite' ); ?></p>
+                    <p><?php esc_html_e( 'Big title, Our focus, About us, Our team, Testimonials, Ribbons, Latest news, Contact us','zerif-lite' ); ?></p>
                 </td>
                 <td><span class="dashicons-before dashicons-yes"></span></td>
                 <td><span class="dashicons-before dashicons-yes"></span></td>
@@ -66,8 +66,8 @@
             </tr>
             <tr>
                 <td>
-                    <h3><?php esc_html_e( 'Google map section','zerif-lite' ); ?></h3>
-                    <p><?php esc_html_e( 'Embed your current location to your website by using a Google map.','zerif-lite' ); ?></p>
+                    <h3><?php esc_html_e( 'Google Maps section','zerif-lite' ); ?></h3>
+                    <p><?php esc_html_e( 'Embed your current location to your website by using a Google Maps.','zerif-lite' ); ?></p>
                 </td>
                 <td><span class="dashicons-before dashicons-no-alt"></span></td>
                 <td><span class="dashicons-before dashicons-yes"></span></td>
