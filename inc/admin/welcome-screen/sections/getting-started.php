@@ -10,7 +10,7 @@ $customizer_url = admin_url() . 'customize.php' ;
 
 	<div class="zerif-tab-pane-center">
 
-		<h1 class="zerif-lite-welcome-title">Welcome to Zerif Lite! <?php if( !empty($zerif_lite['Version']) ): ?> <sup id="zerif-lite-theme-version"><?php echo esc_attr( $zerif_lite['Version'] ); ?> </sup><?php endif; ?></h1>
+		<h1 class="zerif-lite-welcome-title"><?php esc_html_e( 'Welcome to Zerif Lite!', 'zerif-lite' ); ?> <?php if( !empty($zerif_lite['Version']) ): ?> <sup id="zerif-lite-theme-version"><?php echo esc_attr( $zerif_lite['Version'] ); ?> </sup><?php endif; ?></h1>
 
 		<p><?php esc_html_e( 'Our most popular free one page WordPress theme, Zerif Lite!','zerif-lite'); ?></p>
 		<p><?php esc_html_e( 'We want to make sure you have the best experience using Zerif Lite and that is why we gathered here all the necessary informations for you. We hope you will enjoy using Zerif Lite, as much as we enjoy creating great products.', 'zerif-lite' ); ?>
