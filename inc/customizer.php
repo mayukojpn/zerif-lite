@@ -102,7 +102,7 @@ function zerif_customize_register( $wp_customize ) {
  
 	        $wp_customize->add_control( 'zerif_use_safe_font', array(
 	             'type' 		=> 'checkbox',
-	             'label' 	=> __( 'Use safe font?','zerif' ),
+	             'label' 	=> __( 'Use safe font?','zerif-lite' ),
 	             'section' 	=> 'zerif_general_section',
 	             'priority'	=> 1
 	         ) );
@@ -175,7 +175,7 @@ function zerif_customize_register( $wp_customize ) {
  
         $wp_customize->add_control( 'zerif_change_to_full_width', array(
              'type' 		=> 'checkbox',
-             'label' 	=> __( 'Change the template to Full width for all the pages?','zerif' ),
+             'label' 	=> __( 'Change the template to Full width for all the pages?','zerif-lite' ),
              'section' 	=> 'zerif_general_section',
              'priority'	=> 6
          ) );
