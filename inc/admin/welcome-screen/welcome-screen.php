@@ -41,7 +41,7 @@ class Zerif_Welcome {
 	 * @since 1.8.2.4
 	 */
 	public function zerif_lite_welcome_register_menu() {
-		add_theme_page( 'About Zerif Lite', 'About Zerif Lite', 'activate_plugins', 'zerif-lite-welcome', array( $this, 'zerif_lite_welcome_screen' ) );
+		add_theme_page( __( 'About Zerif Lite', 'zerif-lite' ), __( 'About Zerif Lite', 'zerif-lite' ), 'activate_plugins', 'zerif-lite-welcome', array( $this, 'zerif_lite_welcome_screen' ) );
 	}
 
 	/**
