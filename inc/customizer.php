@@ -1975,7 +1975,7 @@ function zerif_customize_register( $wp_customize ) {
 	
 	$wp_customize->add_control( 'zerif_contactus_sitekey', array(
 		'label'    => __( 'Site key', 'zerif-lite' ),
-		'description' => '<a'.$attribut_new_tab.' href="https://www.google.com/recaptcha/admin#list">'.__('Create an account here','zerif-lite').'</a> to get the Site key and the Secret key for the reCaptcha.',
+		'description' => sprintf( _x( '%s to get the Site key and the Secret key for the reCaptcha.', '%s = "Create an acount here"', 'zerif-lite' ), '<a'.$attribut_new_tab.' href="https://www.google.com/recaptcha/admin#list">'.__( 'Create an account here' , 'zerif-lite' ).'</a>' ),
 		'section'  => 'zerif_contactus_section',
 		'priority'    => 7,
 	));
